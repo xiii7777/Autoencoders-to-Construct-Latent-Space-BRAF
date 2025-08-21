@@ -9,6 +9,7 @@ This project investigates the conformational landscape of protein kinases, with 
 The project is organized as follows:
 ```
 ├── 6UAN_chainD.pdb # Template kinase structure (B-Raf, chain D)
+├── PDBs # a subset dataset for testing code execution
 ├── Pipeline_Alignment_MUSTANG.ipynb # Structure alignment using MUSTANG
 ├── Pipeline_Alignment_PYMOL.ipynb # Manual alignment using PyMOL
 ├── Pipeline_DataProcess.ipynb # Preprocessing of input structures and cleaning
