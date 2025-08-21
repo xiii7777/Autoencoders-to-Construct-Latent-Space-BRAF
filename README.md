@@ -1,6 +1,7 @@
 # Kinase Activation Loop Conformational Modeling
 
 This project investigates the conformational landscape of protein kinases, with a focus on the activation loop (A-loop) of B-Raf. By combining structural alignment, dimensionality reduction techniques (PCA and autoencoders), and regression modeling, the analysis identifies key geometric features that are closely associated with conformational transitions.
+
 The initial dataset was batch-downloaded via the RCSB PDB official API with the download process documented in Pipeline_DataProcess.ipynb. The download was based on the complete list of PDB IDs provided in the entry “structure-matching-IPR011009.tsv”. And the PDBs folder contains a subset of downloaded PDB files used for code testing.
 
 ---
